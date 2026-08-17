@@ -90,7 +90,8 @@ async def send_all(update: Update, context: ContextTypes.DEFAULT_TYPE):
     ADMIN_ID = 123456789  
 
     user_id = update.effective_user.id
-    if user_id != ADMIN_ID: I 7753747139
+    if user_id != ADMIN_ID = 7753747139
+    
         await update.message.reply_text(
             "У тебя нет прав на выполнение этой команды."
         )
